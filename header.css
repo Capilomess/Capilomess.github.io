@@ -1,0 +1,33 @@
+/* header.css */
+header {
+    background-color: #FFD700; /* Dorado para destacar el encabezado */
+    color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0b0322; /* Color oscuro para los enlaces */
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #8B0000; /* Rojo oscuro al pasar el mouse */
+}

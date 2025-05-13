@@ -1,0 +1,156 @@
+/* Reset de algunos estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Header con Flexbox para alinear el contenido */
+header {
+    background-color: #ffd700;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0b0322;
+    font-weight: bold;
+}
+
+/* Sección de bienvenida con Flexbox para alinear el contenido */
+#bienvenida {
+    padding: 50px;
+    text-align: center;
+    background: #111;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Sección de fotos con Flexbox */
+#fotos {
+    padding: 50px;
+    text-align: center;
+    background: #111;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5);
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#fotos img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Sección de Videos con Flexbox para centrar los elementos */
+#videos {
+    padding: 50px;
+    text-align: center;
+    background: #111;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe {
+    max-width: 600px;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+}
+
+/* Sección de Música con Flexbox */
+#musica {
+    padding: 50px;
+    text-align: center;
+    background: #111;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5);
+}
+
+.cancion {
+    margin: 15px 0;
+}
+
+/* Sección de Redes Sociales con Flexbox */
+#redes {
+    padding: 50px;
+    text-align: center;
+    background: #111;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.5);
+}
+
+#redes ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#redes li {
+    margin: 10px;
+}
+
+#redes a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #ffd900;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}

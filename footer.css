@@ -1,0 +1,8 @@
+/* footer.css */
+footer {
+    background-color: #FFD700; /* Dorado para el pie de página */
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
